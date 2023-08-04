@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Kanit:wght@300&family=Lunasima&family=Poppins:wght@600&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,700&display=swap');
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lunasima', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.707),rgba(0, 0, 0, 0.707)), url("../images/banner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 745px;
+}
+.nav-bar{
+    padding-top: 10px;
+}
+.logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+
+}
+.logo p{
+    margin-left: 110px;
+    padding-left: 15px;
+    border-left: 4px solid rgb(240, 205, 30);
+}
+.logo span{
+    letter-spacing: 8px;
+    color: rgb(240, 205, 30);
+}
+.nav-links a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 4px 10px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+#about{
+    background-color: rgb(240, 205, 30);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 3px; 
+}
+.nav-links a:hover{
+    background-color: rgb(240, 205, 30);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+.hlp-sprt{
+    color: white;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-top: 20px;
+}
+.hlp-sprt span{
+    color: rgb(240, 205, 30);
+}
+.details i,.details span{
+    padding-top: 50px;
+    color: rgb(240, 205, 30);
+    font-size: 30px;
+
+}
+.details span{
+    color: white;
+    margin-left: 24px;
+    font-family: 'Kanit', sans-serif;
+}
+.deatils-sub{
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.form input,.form select,.form textarea{
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.form input{
+    color: white;
+    padding-right: 250px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+.form input::placeholder{
+    color: rgba(240, 205, 30, 0.619);
+    font-family: apple-system, BlinkMacSystemFont, Segoe UI, Inter, Open Sans, Bebas Neue, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, serif, Arial, sans-serif;
+}
+.form select{
+    padding-right: 232px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(240, 205, 30, 0.619);
+    padding-left: 5px;
+    border-radius: 8px;
+}
+.form option{
+    color: black;
+}
+
+.form textarea{
+    color: white;
+    padding-right: 195px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+.form textarea::placeholder{
+    color: rgba(240, 205, 30, 0.619);
+    font-family: apple-system, BlinkMacSystemFont, Segoe UI, Inter, Open Sans, Bebas Neue, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, serif, Arial, sans-serif;
+}
+.sbmt-btn{
+    padding: 11px 50px;
+    border: none;
+    background-color: rgb(240, 205, 30);
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+}
+@media(min-width:300px) and (max-width:575.98px){
+    .logo p{
+        font-size: 0px;
+    }
+    .nav-bar{
+        padding-top: 0px;
+       }
+       .nav-links{
+        text-align: right;
+        margin-top: 0px;
+       }
+       .nav-links a{
+        padding: 2px 5px !important;
+        margin-left: 10px !important;
+        font-size: 8px;
+       }
+       .hlp-sprt{
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .details i,.details span{
+        padding-top: 10px;
+        color: rgb(240, 205, 30);
+        font-size: 20px;
+    
+    }
+    .form input{
+        padding-right: 70px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 6px;
+    }
+    .deatils-sub{
+        padding-left: 40px;
+        font-size: 11px;
+        padding-top: 0px;
+    }
+    .form select{
+        padding-right: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 6px;
+    }
+    .form textarea{
+        color: white;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 4px;
+        border-radius: 6px;
+    }
+    .sbmt-btn{
+        padding: 6px 25px;
+        border: none;
+        background-color: rgb(240, 205, 30);
+        font-family: 'Kanit', sans-serif;
+        font-weight: 700;
+        border-radius: 6px;
+    }
+    .full-form{
+        text-align: center;
+    }
+}
+@media(min-width:576px) and (max-width:767.98px){
+    .banner{
+        
+        height: 652px;
+    }
+    .logo p{
+        font-size: 0px;
+    }
+    .nav-bar{
+        padding-top: 0px;
+       }
+       .nav-links{
+        text-align: right;
+        margin-top: 0px;
+       }
+       .nav-links a{
+        padding: 2px 5px !important;
+        margin-left: 10px !important;
+        font-size: 8px;
+       }
+       .hlp-sprt{
+        font-size: 20px;
+        padding-top: 20%;
+    }
+    .details i,.details span{
+        padding-top: 20px;
+        color: rgb(240, 205, 30);
+        font-size: 20px;
+    
+    }
+    .form input{
+        padding-right: 70px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 6px;
+    }
+    .details span{
+    color: white;
+    margin-left: 24px;
+    font-family: 'Kanit', sans-serif;
+}
+    .deatils-sub{
+        font-size: 11px;
+        padding-top: 0px;
+    }
+    .form select{
+        padding-right: 51px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 6px;
+    }
+    .form textarea{
+        color: white;
+        padding-right: 22px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 4px;
+        border-radius: 6px;
+    }
+    .sbmt-btn{
+        padding: 6px 25px;
+        border: none;
+        background-color: rgb(240, 205, 30);
+        font-family: 'Kanit', sans-serif;
+        font-weight: 700;
+        border-radius: 6px;
+    }
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .banner{
+        
+        height: 652px;
+    }
+    .logo p{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .nav-bar{
+        padding-top: 0px;
+       }
+       .nav-links{
+        text-align: right;
+        margin-top: 0px;
+       }
+       .nav-links a{
+        padding: 2px 5px !important;
+        margin-left: 10px !important;
+        font-size: 12px;
+       }
+       .hlp-sprt{
+        font-size: 30px;
+        padding-top: 10%;
+    }
+    .details i,.details span{
+        padding-top: 30px;
+        color: rgb(240, 205, 30);
+        font-size: 30px;
+    
+    }
+    .form input{
+        padding-right: 130px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 6px;
+    }
+    .details span{
+    color: white;
+    margin-left: 24px;
+    font-family: 'Kanit', sans-serif;
+}
+    .deatils-sub{
+        font-size: 11px;
+        padding-top: 0px;
+    }
+    .form select{
+        padding-right: 111px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 6px;
+    }
+    .form textarea{
+        color: white;
+        padding-right: 83px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 4px;
+        border-radius: 6px;
+    }
+    .sbmt-btn{
+        padding: 9px 35px;
+        border: none;
+        background-color: rgb(240, 205, 30);
+        font-family: 'Kanit', sans-serif;
+        font-weight: 700;
+        border-radius: 6px;
+    }
+
+}
+@media(min-width:992px) and (max-width:1199.98px){
+    .logo p{
+        font-size: 10px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .nav-links{
+        text-align: right;
+        margin-top: 0px;
+       }
+       .nav-links a{
+        padding: 2px 5px !important;
+        margin-left: 10px !important;
+        font-size: 10px;
+       }
+       .form select{
+        padding-right: 51%;
+    }
+    .form textarea{
+        padding-right: 44.5%;
+    }
+}

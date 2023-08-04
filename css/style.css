@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Kanit:wght@300&family=Lunasima&family=Poppins:wght@600&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,700&display=swap');
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lunasima', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.707),rgba(0, 0, 0, 0.707)), url("../images/banner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    padding-bottom: 13px;
+}
+.nav-bar{
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+
+}
+.logo p{
+    margin-left: 110px;
+    padding-left: 15px;
+    border-left: 4px solid rgb(240, 205, 30);
+}
+.logo span{
+    letter-spacing: 8px;
+    color: rgb(240, 205, 30);
+}
+.nav-links a{
+    border: 1px solid transparent;
+    padding: 4px 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+#home{
+    background-color: rgb(240, 205, 30);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 3px; 
+}
+.nav-links a:hover{
+    background-color: rgb(240, 205, 30);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: 900;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    color: white;
+    margin-top: 130px;
+    font-size: 78px;
+    letter-spacing: 6px;
+}
+.container span{
+    color: rgb(240, 205, 30);
+    letter-spacing: 15px;
+}
+.btns{
+    margin-top: 40px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid  white;
+    border-radius: 3px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+   
+}
+.shp-btn{
+    padding: 8px 18px;
+    margin-right: 10px;
+}
+.sgn-up-btn{
+    padding: 8px 30px;
+}
+.container a:hover{
+    border: 2px solid rgb(240, 205, 30);
+    background-color: rgb(240, 205, 30);
+    color: black;
+}
+.ul-under-btns{
+    border-bottom: 2px solid rgb(118, 117, 117);
+    padding-top: 70px;
+    width: 70%;
+    margin: auto;
+}
+.bybrand{
+    text-align: center;
+    padding-top: 40px;
+}
+.bybrand h2{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 23px;
+}
+.ul{
+    border-bottom: 2px solid rgb(240, 205, 30);
+    width: 20%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.card-bybrand{
+    height: 190px;
+    background-color: rgba(152, 152, 152, 0.466);
+    border: 2px solid white;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.img1{
+    width: 13%;
+    margin-top: 50px;
+}
+.img2{
+    width: 13%;
+    margin-top: 30px;
+}
+.img3{
+    width: 10%;
+    margin-top: 30px;
+}
+.img4{
+    width: 13%;
+    margin-top: 30px;
+}
+.img5{
+    width: 13%;
+    margin-top: 30px;
+}
+.img6{
+    width: 13%;
+    margin-top: 30px;
+}
+.img7{
+    width: 10%;
+    margin-top: 30px;
+}
+
+
+.footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.836),rgba(0, 0, 0, 0.836)),url("../images/bmw.jpg");
+    background-size: cover;
+    height: 200px;
+}
+.footer img{
+    width: 60%;
+    margin-left: 100px;
+    padding-top: 40px;
+}
+.footer h3{
+    margin-left: 20px;
+    padding-top: 80px;
+    color: rgb(240, 205, 30);
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.footer-input input{
+    margin-left: 18px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    border: 1px solid rgb(240, 205, 30);
+    background-color: transparent;
+    padding-right: 80px;
+    padding-left: 7px;
+    color: white;
+}
+.footer-input input::placeholder{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.social-links{
+    padding-top: 80px;
+}
+.social-links p{
+    color: rgb(240, 205, 30);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif; 
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;   
+}
+.social-links i{
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+.social-links i:hover{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: white;
+    color: black;
+}
+@media(min-width:250px) and (max-width:575.98px){
+    .logo p{
+        font-size: 0px;
+    }
+    .logo span{
+        letter-spacing: 3px;
+    }
+    .container h1{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .btns{
+        margin-top: 20px;
+    }
+   .shp-btn{
+    padding: 4px 9px;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-right: 2px;
+
+   }
+   .sgn-up-btn{
+    padding: 4px 15px;
+    font-size: 10px
+   }
+   .nav-bar{
+    padding-top: 0px;
+   }
+   .nav-links{
+    text-align: right;
+    margin-top: 0px;
+   }
+   .nav-links a{
+    padding: 2px 5px !important;
+    margin-left: 10px !important;
+    font-size: 8px;
+   }
+   #home{
+    padding: 2px 5px !important;
+   }
+   .ul-under-btns{
+    
+    padding-top: 40px;
+    }
+    .bybrand h2{
+        padding-top: 4px;
+        font-size: 15px;
+    }
+    .card-bybrand{
+        height: 60px;
+    }
+    .img1{
+        margin-top: 10px;
+    }
+    .img2{
+        margin-top: 10px;
+    }
+    .img3{
+        margin-top: 10px;
+    }
+    .img4{
+        margin-top: 10px;
+    }
+    .img5{
+        margin-top: 10px;
+    }
+    .img6{
+        margin-top: 10px;
+    }
+    .img7{
+        margin-top: 10px;
+    }
+    .footer img{
+        width: 0%;
+        text-align: left;
+        margin-left: 2px;
+        padding-top: 4px;
+    }
+    .footer h3{
+        margin-left: 2px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .footer-input input{
+        margin-left: 1px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .social-links{
+        padding-top: 10px;
+    }
+}
+@media(min-width:576px) and (max-width:767.98px){
+    .logo p{
+        padding-left: 10px;
+        font-size: 0px;
+        letter-spacing: 1px;
+        margin-left: 0;
+    }
+    .logo span{
+        letter-spacing: 3px;
+    }
+    .nav-links{
+        text-align: right;
+    }
+    .nav-links a{
+        padding: 2px 5px !important;
+        margin-left: 10px !important;
+        font-size: 8px;
+    }
+    .container h1{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .btns{
+        margin-top: 30px;
+    }
+   .shp-btn{
+        padding: 4px 9px;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-right: 2px;
+
+   }
+   .sgn-up-btn{
+    padding: 4px 15px;
+    font-size: 15px
+   }
+   .ul-under-btns{
+    
+    padding-top: 40px;
+    }
+    .bybrand h2{
+        padding-top: 4px;
+        font-size: 20px;
+    }
+    .card-bybrand{
+        height: 67px;
+    }
+    .img1{
+        margin-top: 10px;
+    }
+    .img2{
+        margin-top: 10px;
+    }
+    .img3{
+        margin-top: 10px;
+    }
+    .img4{
+        margin-top: 10px;
+    }
+    .img5{
+        margin-top: 10px;
+    }
+    .img6{
+        margin-top: 10px;
+    }
+    .img7{
+        margin-top: 10px;
+    }
+    .footer img{
+        width: 0%;
+        text-align: left;
+        margin-left: 2px;
+        padding-top: 4px;
+    }
+    .footer h3{
+        margin-left: 2px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .footer-input input{
+        margin-left: 1px;
+    }
+    .footer{
+        text-align: center;
+        /* height: 190px; */
+    }
+    .social-links{
+        padding-top: 10px;
+    }
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .logo p{
+        padding-left: 10px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-left: 0;
+    }
+    .logo span{
+        letter-spacing: 3px;
+    }
+    .nav-links{
+        text-align: center;
+    }
+    .nav-links a{
+        padding: 2px 5px !important;
+        margin-left: 10px !important;
+        font-size: 9px;
+       }
+       .container h1{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .btns{
+        margin-top: 30px;
+    }
+   .shp-btn{
+        padding: 4px 9px;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-right: 2px;
+
+   }
+   .sgn-up-btn{
+    padding: 4px 15px;
+    font-size: 15px
+   }
+   .ul-under-btns{
+    
+    padding-top: 40px;
+    }
+    .bybrand h2{
+        padding-top: 4px;
+        font-size: 20px;
+    }
+    .card-bybrand{
+        height: 95px;
+    }
+    .img1{
+        margin-top: 10px;
+    }
+    .img2{
+        margin-top: 10px;
+    }
+    .img3{
+        margin-top: 10px;
+    }
+    .img4{
+        margin-top: 10px;
+    }
+    .img5{
+        margin-top: 10px;
+    }
+    .img6{
+        margin-top: 10px;
+    }
+    .img7{
+        margin-top: 10px;
+    }
+    .footer img{
+        width: 0%;
+        text-align: left;
+        margin-left: 2px;
+        padding-top: 4px;
+    }
+    .footer h3{
+        margin-left: 2px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .footer-input input{
+        margin-left: 1px;
+    }
+    .footer{
+        text-align: center;
+        height: 190px;
+    }
+    .social-links{
+        padding-top: 10px;
+    }
+}
+@media(min-width:992px) and (max-width:1199.98px){
+    .logo p{
+        padding-left: 10px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-left: 0;
+    }
+    .logo span{
+        letter-spacing: 3px;
+    }
+    .nav-links{
+        text-align: center;
+    }
+    .nav-links a{
+        padding: 2px 5px !important;
+        margin-left: 10px !important;
+        font-size: 9px;
+       }
+       .container h1{
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    .btns{
+        margin-top: 40px;
+    }
+   .shp-btn{
+        padding: 7px 12px;
+        font-size: 19px;
+        margin-top: 0px;
+        margin-right: 9px;
+
+   }
+   .sgn-up-btn{
+    padding: 7px 18px;
+    font-size: 19px
+   }
+   .ul-under-btns{
+    
+    padding-top: 40px;
+    }
+    .card-bybrand{
+        height: 155px;
+    }
+}

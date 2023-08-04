@@ -1,0 +1,236 @@
+.banner{
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    padding-bottom: 13px;
+}
+.nav-bar{
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+
+}
+.logo p{
+    margin-left: 110px;
+    padding-left: 15px;
+    border-left: 4px solid rgb(240, 205, 30);
+}
+.logo span{
+    letter-spacing: 8px;
+    color: rgb(240, 205, 30);
+}
+.login-div{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 30%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 1px 2px 16px -2px rgba(0,0,0,0.75);
+    text-align: center;
+}
+.login-div p{
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.sgn-up-head{
+    text-align: center;
+}
+input{
+    margin-bottom: 15px !important;
+}
+.first-name,.last-name{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.email,.pswrd{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 200px;
+    padding-left: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.date{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 260px;
+    padding-left: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+}
+.gender-div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 7px;
+    margin-bottom: 15px;
+}
+.gender{
+    margin-right: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.sbmt-btn{
+    border: 1px solid black;
+    background-color: black;
+    color: rgb(240, 205, 30);
+    padding: 10px 50px;
+    margin-top: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+input::placeholder{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(179, 179, 179);
+}
+@media(min-width:300px) and (max-width:575.98px){
+    .logo p{
+        padding-left: 10px;
+        font-size: 5px;
+        letter-spacing: 1px;
+        margin-left: 0;
+    }
+    .logo span{
+        letter-spacing: 3px;
+    }
+    .sgn-up-head{
+        padding-top: 0px;
+    }
+    .sgn-up-head p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .login-div{
+        width: 80%;
+        height: 380px;
+        margin: auto;
+        margin-top: 20%;
+    }
+    .first-name,.last-name{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border-radius: 3px;
+    }
+    .email,.pswrd{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 3px;
+        border-radius: 2px;
+    }
+    .date{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 95px;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    input::placeholder{
+        font-size: 10px;
+        font-weight: 400;
+        color: rgb(179, 179, 179);
+    }
+    .gender-div{
+        margin-right: 2px;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    .gender{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .sbmt-btn{
+        padding: 3px 10px;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .alrdy-ac{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+}
+@media(min-width:577px) and (max-width:767.98px){
+    .logo p{
+        padding-left: 10px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-left: 0;
+    }
+    .logo span{
+        letter-spacing: 3px;
+    }
+    .sgn-up-head{
+        padding-top: 0px;
+    }
+    .sgn-up-head p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .login-div{
+        width: 60%;
+        height: 480px;
+        margin: auto;
+        margin-top: 3%;
+    }
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .logo p{
+        padding-left: 10px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-left: 0;
+    }
+    .logo span{
+        letter-spacing: 3px;
+    }
+    .sgn-up-head{
+        padding-top: 0px;
+    }
+    .sgn-up-head p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .login-div{
+        width: 40%;
+        height: 480px;
+        margin: auto;
+        margin-top: 3%;
+    }
+}
+@media(min-width:993px) and (max-width:1299.98px){
+    .logo p{
+        padding-left: 10px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-left: 0;
+    }
+    .logo span{
+        letter-spacing: 3px;
+    }
+    .sgn-up-head{
+        padding-top: 0px;
+    }
+    .sgn-up-head p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .login-div{
+        width: 40%;
+        height: 480px;
+        margin: auto;
+        margin-top: 3%;
+    }
+}

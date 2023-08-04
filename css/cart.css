@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Kanit:wght@300&family=Lunasima&family=Poppins:wght@600&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,700&display=swap');
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lunasima', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.707),rgba(0, 0, 0, 0.707)), url("../images/banner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    padding-bottom: 100px;
+}
+.nav-bar{
+    padding-top: 10px;
+}
+.logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+
+}
+.logo p{
+    margin-left: 110px;
+    padding-left: 15px;
+    border-left: 4px solid rgb(240, 205, 30);
+}
+.logo span{
+    letter-spacing: 8px;
+    color: rgb(240, 205, 30);
+}
+.nav-links a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 4px 10px;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    /* padding-left: 10px; */
+}
+#cart{
+    background-color: rgb(240, 205, 30);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 3px; 
+}
+.nav-links a:hover{
+    background-color: rgb(240, 205, 30);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+.main-heading h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.main-heading span{
+    color: rgb(240, 205, 30);
+}
+.item-listed{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.536);
+    border-radius: 10px;
+    height: auto;
+    padding: 40px;
+}
+#items img{
+    width: 75%;
+    margin-top: 19px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+#items{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    
+}
+.cart-left{
+    width: 50%;
+}
+.item-name p{
+    /* background-color: blue; */
+    padding-top: 12px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 0 !important;
+}
+#items select{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 49px;
+}
+.item-name label{
+    font-weight: 700;
+    font-size: 12px
+}
+.card-text{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.price{
+    display: flex;
+}
+.prchs-btn{
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+.cs-btn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(240, 205, 30);
+    background-color: rgb(240, 205, 30);
+    padding: 8px 15px;
+    margin-right: 7px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.rmve-btn{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    padding: 8px 15px;
+    margin-right: 7px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.cart-right i{
+    color: rgb(240, 205, 30);
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+.cart-right span{
+    color: black;
+    margin-left: 5px;
+    font-weight: 700;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+.cart-right table{
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif; 
+    height: 20px;
+}
+td{
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.totel{
+    font-size: 19px;
+}
+.savings{
+    color: rgb(97, 96, 96);
+}
+.pyble-amd{
+    font-size: 19px;
+}
+.tax{
+    color: rgb(97, 96, 96);
+}
+.plce-ordr-btn{
+    margin-top: 60px;
+    margin-left: 128px;
+}
+.plce-ordr-btn a{
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 2px solid rgb(3, 3, 3);
+    background-color: rgb(240, 205, 30);
+    color: black;
+    border-radius: 7px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif; 
+    font-weight: 700;
+}
+.plce-ordr-btn a:hover{
+    background-color: black;
+    color: rgb(240, 205, 30);
+}

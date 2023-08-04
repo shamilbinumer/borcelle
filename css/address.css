@@ -1,0 +1,26 @@
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.707),rgba(0, 0, 0, 0.707)), url("../images/banner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    
+}
+
+.nav-bar{
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+
+}
+.logo p{
+    padding-left: 120px;
+}
+.logo span{
+    letter-spacing: 8px;
+    color: rgb(240, 205, 30);
+}
