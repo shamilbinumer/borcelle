@@ -162,7 +162,7 @@ font-family: 'Roboto Mono', monospace; */
 .footer{
     background-image: linear-gradient(rgba(0, 0, 0, 0.836),rgba(0, 0, 0, 0.836)),url("../images/bmw.jpg");
     background-size: cover;
-    height: 200px;
+    height: auto;
 }
 .footer img{
     width: 60%;
@@ -485,7 +485,6 @@ font-family: 'Roboto Mono', monospace; */
     }
     .footer{
         text-align: center;
-        height: 190px;
     }
     .social-links{
         padding-top: 10px;
