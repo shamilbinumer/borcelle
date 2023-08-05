@@ -139,25 +139,9 @@ font-family: 'Roboto Mono', monospace; */
     color: black;
 }
 @media(min-width:250px) and (max-width:575.98px){
-    .logo p{
-        font-size: 0px;
-    }
-    .logo span{
-        letter-spacing: 3px;
-    }
-    .nav-bar{
-        padding-top: 0px;
-       }
-       .nav-links{
-        text-align: right;
-        margin-top: 0px;
-       }
-       .nav-links a{
-        padding: 2px 5px !important;
-        margin-left: 10px !important;
-        font-size: 8px;
-       }
+   c
        #search-bar{
+        margin-top: 20px;
         padding-right: 20px;
         padding-bottom: 0px;
     }
@@ -269,7 +253,71 @@ font-family: 'Roboto Mono', monospace; */
         padding: 8px 20px;
     }
 }
-@media(min-width:576px) and (max-width:767.98px){
-    
+@media(min-width:768px) and (max-width:991.98px){
+    .logo p{
+        font-size: 0px;
+    }
+    .logo span{
+        letter-spacing: 3px;
+    }
+    .nav-bar{
+        padding-top: 0px;
+       }
+       .nav-links{
+        text-align: right;
+        margin-top: 0px;
+       }
+       .nav-links a{
+        padding: 2px 5px !important;
+        margin-left: 10px !important;
+        font-size: 8px;
+       }
+       #search-bar{
+        padding-right: 20px;
+        padding-bottom: 0px;
+    }
+    .search-bar input::placeholder{
+        font-size: 10px;  
+        padding-left: 20%;           
+    }
+    .card{
+        height: auto;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        width: 90%;
+        margin-left: 0px !important;
+    }
+    #product-img{
+        padding-top: 60px;
+    }
+    .products img{
+        width: 30%;
+    }
+    .card-title{
+        font-size: 10px;
+    }
+    .price{
+        gap: 15px;
+        font-size: 10px;
+    }
+    .card a{
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .card-btn{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .buy{
+        padding: 8px 20px;
+        margin-right: 13px;
+    }
+    .lod-more{
+        margin-top: 10px;
+    }
+    .lod-more a{
+        font-size: 10px;
+        padding: 8px 20px;
+    }
 }
 
